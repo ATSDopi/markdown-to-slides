@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  md2slides:
+    build: .
+    container_name: md2slides
+    volumes:
+      - ./presentations:/presentations
+    ports:
+      - "3000:3000"
+    command: ["serve", "/presentations/presentation.md", "--port", "3000"]
+    restart: unless-stopped
