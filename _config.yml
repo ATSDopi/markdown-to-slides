@@ -1,0 +1,4 @@
+title: markdown-to-slides
+description: Turn Markdown into interactive slide decks — Mermaid diagrams, 6 themes, speaker notes, PDF export, live-reload server, CLI + Docker
+plugins:
+  - jekyll-sitemap
